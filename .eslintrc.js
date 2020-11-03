@@ -10,5 +10,8 @@ module.exports = {
     ecmaVersion: 12,
   },
   rules: {
+    "brace-style": ["error", "stroustrup"],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-lonely-if": "off"
   },
 };

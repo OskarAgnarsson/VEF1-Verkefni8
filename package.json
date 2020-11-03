@@ -2,10 +2,10 @@
   "name": "vef1-2020-v8-synilausn",
   "version": "1.0.0",
   "description": "## Lýsing",
-  "main": "scripts.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "browser-sync start --server --files scripts.js styles.css",
-    "test": "eslint scripts.js"
+    "dev": "browser-sync start --server --files app.js styles.css",
+    "test": "eslint app.js"
   },
   "repository": {
     "type": "git",
